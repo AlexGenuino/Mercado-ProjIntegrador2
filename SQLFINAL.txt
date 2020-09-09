@@ -1,0 +1,80 @@
+CREATE TABLE Cliente (
+Contato VARCHAR(200),
+Email VARCHAR(200),
+Data_Nascimento DATE,
+CPF VARCHAR(200) PRIMARY KEY,
+Nome VARCHAR(200)
+);
+
+CREATE TABLE Endereco (
+Bairro VARCHAR(200),
+Cidade VARCHAR(200),
+Rua VARCHAR(200),
+CEP VARCHAR(200),
+Numero VARCHAR(200),
+Id_Endereco INTEGER PRIMARY KEY AUTO_INCREMENT,
+CPF VARCHAR(200),
+FOREIGN KEY(CPF) REFERENCES Cliente (CPF)
+);
+
+CREATE TABLE Servico (
+Preco DECIMAL(7,2),
+Id_Servico INTEGER PRIMARY KEY auto_increment,
+Descricao VARCHAR(200)
+);
+
+CREATE TABLE Produto (
+Preco_Compra DECIMAL(7,2),
+Preco_Venda DECIMAL(7,2),
+Data_Vencimento DATE,
+Nome VARCHAR(200),
+Quantidade_estoque INTEGER,
+Codigo_Barras INTEGER PRIMARY KEY auto_increment,
+IdTipo INTEGER
+);
+
+CREATE TABLE TipoProduto (
+TipoProduto VARCHAR(200),
+IdTipo INTEGER PRIMARY KEY auto_increment
+);
+
+CREATE TABLE Login (
+IdLogin INTEGER PRIMARY KEY auto_increment,
+Nome VARCHAR(200),
+Permissao VARCHAR(200),
+Senha VARCHAR(200)
+);
+
+CREATE TABLE Fatura (
+Id_Fatura INTEGER PRIMARY KEY auto_increment,
+Valor_Total DECIMAL(7,2),
+Data_Vencimento DATE,
+Data_Pagamento DATE,
+FormaPagamento VARCHAR(200),
+EstaPago boolean,
+Id_Carrinho INTEGER
+);
+
+CREATE TABLE Carrinho (
+Id_Carrinho INTEGER PRIMARY KEY auto_increment,
+TotalCarrinho DECIMAL(7,2),
+CPF VARCHAR(200),
+FOREIGN KEY(CPF) REFERENCES Cliente (CPF)
+);
+
+CREATE TABLE Carrinho_Produtos (
+Codigo_Barras INTEGER,
+Id_Carrinho INTEGER,
+FOREIGN KEY(Codigo_Barras) REFERENCES Produto (Codigo_Barras),
+FOREIGN KEY(Id_Carrinho) REFERENCES Carrinho (Id_Carrinho)
+);
+
+CREATE TABLE Carrinho_Servico (
+Id_Servico INTEGER,
+Id_Carrinho INTEGER,
+FOREIGN KEY(Id_Servico) REFERENCES Servico (Id_Servico),
+FOREIGN KEY(Id_Carrinho) REFERENCES Carrinho (Id_Carrinho)
+);
+
+ALTER TABLE Produto ADD FOREIGN KEY(IdTipo) REFERENCES TipoProduto (IdTipo);
+ALTER TABLE Fatura ADD FOREIGN KEY(Id_Carrinho) REFERENCES Carrinho (Id_Carrinho)

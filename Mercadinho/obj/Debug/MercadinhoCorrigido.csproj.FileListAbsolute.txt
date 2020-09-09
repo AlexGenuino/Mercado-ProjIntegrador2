@@ -1,0 +1,87 @@
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Mercadinho.exe.config
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Mercadinho.exe
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Mercadinho.pdb
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Google.Protobuf.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\MaterialSkin.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\MySql.Data.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Renci.SshNet.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Google.Protobuf.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\MySql.Data.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\bin\Debug\Renci.SshNet.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csprojAssemblyReference.cache
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.CadastrarTipo.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Cadastro_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Cadastro_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Cadastro_Servico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Carrinho_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Carrinho_Servicos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Consulta_Faturas.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarCliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarClienteServico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarProdutos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarServico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarTipoProdutos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Login.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Menu.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Properties.Resources.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Clientes.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Carrinho.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Produto.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Relatorios.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Faturas.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Vencimento.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Servicos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csproj.GenerateResource.cache
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csproj.CopyComplete
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.exe
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\Mercadinho corrigido\Mercadinho\Mercadinho\obj\Debug\Mercadinho.pdb
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Mercadinho.exe.config
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Mercadinho.exe
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Mercadinho.pdb
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Google.Protobuf.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\MaterialSkin.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\MySql.Data.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Renci.SshNet.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Google.Protobuf.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\MySql.Data.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\bin\Debug\Renci.SshNet.xml
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csprojAssemblyReference.cache
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.CadastrarTipo.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Cadastro_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Cadastro_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Cadastro_Servico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Carrinho_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Carrinho_Servicos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Consulta_Faturas.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarCliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarClienteServico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarProdutos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarServico.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.ListarTipoProdutos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Login.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Menu.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Properties.Resources.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Clientes.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Carrinho.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Produto.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Menu_Relatorios.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Cliente.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Faturas.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Produtos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.View.Relatorio_Vencimento.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.Servicos.resources
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csproj.GenerateResource.cache
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csproj.CopyComplete
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.exe
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\Mercadinho.pdb
+C:\Users\Ale\Desktop\Projeto Integrador\Mercadinho Layout\MercadinhoFinal\Mercadinho\Mercadinho\obj\Debug\MercadinhoCorrigido.csproj.CoreCompileInputs.cache

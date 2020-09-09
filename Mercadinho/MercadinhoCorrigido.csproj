@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68C220D7-D94C-4084-9189-299457491F41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Mercadinho</RootNamespace>
+    <AssemblyName>Mercadinho</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\CarrinhoProdutoDAO.cs" />
+    <Compile Include="DAO\CarrinhoServicoDAO.cs" />
+    <Compile Include="DAO\ClienteDAO.cs" />
+    <Compile Include="DAO\EnderecoDAO.cs" />
+    <Compile Include="DAO\FaturaDAO.cs" />
+    <Compile Include="DAO\LoginDAO.cs" />
+    <Compile Include="DAO\ProdutoDAO.cs" />
+    <Compile Include="DAO\ServicosDAO.cs" />
+    <Compile Include="DAO\TipoProdutoDAO.cs" />
+    <Compile Include="Model\CarrinhoProdutos.cs" />
+    <Compile Include="Model\CarrinhoServico.cs" />
+    <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\Endereco.cs" />
+    <Compile Include="Model\Fatura.cs" />
+    <Compile Include="Model\Login.cs" />
+    <Compile Include="Model\Produto.cs" />
+    <Compile Include="Model\Servicos.cs" />
+    <Compile Include="Model\TipoProduto.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DGVPrinter.cs" />
+    <Compile Include="View\CadastrarTipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CadastrarTipo.Designer.cs">
+      <DependentUpon>CadastrarTipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cadastro_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cadastro_Cliente.Designer.cs">
+      <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cadastro_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cadastro_Produtos.Designer.cs">
+      <DependentUpon>Cadastro_Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cadastro_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cadastro_Servico.Designer.cs">
+      <DependentUpon>Cadastro_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Conexao.cs" />
+    <Compile Include="View\Carrinho_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Carrinho_Produtos.Designer.cs">
+      <DependentUpon>Carrinho_Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Carrinho_Servicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Carrinho_Servicos.Designer.cs">
+      <DependentUpon>Carrinho_Servicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Consulta_Faturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Consulta_Faturas.Designer.cs">
+      <DependentUpon>Consulta_Faturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListarCliente.Designer.cs">
+      <DependentUpon>ListarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListarClienteServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListarClienteServico.Designer.cs">
+      <DependentUpon>ListarClienteServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListarProdutos.Designer.cs">
+      <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListarServico.Designer.cs">
+      <DependentUpon>ListarServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListarTipoProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListarTipoProdutos.Designer.cs">
+      <DependentUpon>ListarTipoProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Consulta_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Consulta_Produtos.Designer.cs">
+      <DependentUpon>Consulta_Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Consulta_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Consulta_Clientes.Designer.cs">
+      <DependentUpon>Consulta_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu_Carrinho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu_Carrinho.Designer.cs">
+      <DependentUpon>Menu_Carrinho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu_Cliente.Designer.cs">
+      <DependentUpon>Menu_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu_Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu_Produto.Designer.cs">
+      <DependentUpon>Menu_Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu_Relatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu_Relatorios.Designer.cs">
+      <DependentUpon>Menu_Relatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Relatorio_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Relatorio_Cliente.Designer.cs">
+      <DependentUpon>Relatorio_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Relatorio_Faturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Relatorio_Faturas.Designer.cs">
+      <DependentUpon>Relatorio_Faturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Relatorio_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Relatorio_Produtos.Designer.cs">
+      <DependentUpon>Relatorio_Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Relatorio_Vencimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Relatorio_Vencimento.Designer.cs">
+      <DependentUpon>Relatorio_Vencimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Servicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Servicos.Designer.cs">
+      <DependentUpon>Servicos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\CadastrarTipo.resx">
+      <DependentUpon>CadastrarTipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cadastro_Cliente.resx">
+      <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cadastro_Produtos.resx">
+      <DependentUpon>Cadastro_Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cadastro_Servico.resx">
+      <DependentUpon>Cadastro_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Carrinho_Produtos.resx">
+      <DependentUpon>Carrinho_Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Carrinho_Servicos.resx">
+      <DependentUpon>Carrinho_Servicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Consulta_Faturas.resx">
+      <DependentUpon>Consulta_Faturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListarCliente.resx">
+      <DependentUpon>ListarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListarClienteServico.resx">
+      <DependentUpon>ListarClienteServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListarProdutos.resx">
+      <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListarServico.resx">
+      <DependentUpon>ListarServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListarTipoProdutos.resx">
+      <DependentUpon>ListarTipoProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Consulta_Produtos.resx">
+      <DependentUpon>Consulta_Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Consulta_Clientes.resx">
+      <DependentUpon>Consulta_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu_Carrinho.resx">
+      <DependentUpon>Menu_Carrinho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu_Cliente.resx">
+      <DependentUpon>Menu_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu_Produto.resx">
+      <DependentUpon>Menu_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu_Relatorios.resx">
+      <DependentUpon>Menu_Relatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Relatorio_Cliente.resx">
+      <DependentUpon>Relatorio_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Relatorio_Faturas.resx">
+      <DependentUpon>Relatorio_Faturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Relatorio_Produtos.resx">
+      <DependentUpon>Relatorio_Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Relatorio_Vencimento.resx">
+      <DependentUpon>Relatorio_Vencimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Servicos.resx">
+      <DependentUpon>Servicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
